@@ -28,15 +28,15 @@ While multimodel LLMs demonstrate remarkable reasoning progress, their applicati
 
 ## Distribution of difficulty levels
 
-![img](./Figures/Figure1.png)
+![img](./Figures/Figure-1.png)
 
 ## Example of dataset and CoT Evaluation (Translated)
 
-![img](./Figures/Figure2.png)
+![img](./Figures/Figure-2.png)
 
 ## Performance results of the two models
 
-![img](./Figures/Figure3.png)
+![img](./Figures/Figure-3.png)
 
 ## Statistics of subject questions
 
