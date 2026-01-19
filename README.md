@@ -17,7 +17,7 @@ While multimodel LLMs demonstrate remarkable reasoning progress, their applicati
 ## Citation
 
 ```
-@inproceedings{luo2025multiphysics,
+@inproceedings{luo2026multiphysics,
   title={Multi-Physics: A Comprehensive Benchmark for Multimodal LLMs Reasoning on Chinese Multi-Subject Physics Problems},
   author={Luo, Zhongze and Yin, Zhenshuai and Guo, Yongxin and Wang, Zhichao and Zhu, Jionghao and Tang, Xiaoying},
   booktitle={ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
