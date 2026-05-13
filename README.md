@@ -2,10 +2,8 @@
 <h5 align="center"> If our project helps you, please give us a star ⭐ and cite our <a href="#citation">paper</a>!</h2>
 <h5 align="center">
 
-
-[![hf_space](https://img.shields.io/badge/🤗-Paper%20In%20HF-red.svg)](https://huggingface.co/papers/2405.14297)
-[![arxiv](https://img.shields.io/badge/Arxiv-2405.14297-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2405.14297)
-[![visitor](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLINs-lab%2FDynMoE&count_bg=%2379C83D&title_bg=%23454343&icon=&icon_color=%23E7E7E7&title=visitor&edge_flat=false)](https://hits.seeyoufarm.com)
+[![github](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/T-Lab-CUHKSZ/Multi-Physics)
+[![paper](https://img.shields.io/badge/paper-ieee-blue)](https://ieeexplore.ieee.org/document/11460990)
 
 ## News
 - **[2026.05.7]** Our [paper](https://ieeexplore.ieee.org/document/11460990) is oral presented at ICASSP 2026!
