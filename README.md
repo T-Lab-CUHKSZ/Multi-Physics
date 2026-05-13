@@ -3,7 +3,7 @@
 <h5 align="center">
 
 [![github](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/T-Lab-CUHKSZ/Multi-Physics)
-[![paper](https://img.shields.io/badge/paper-ieee-blue)](https://ieeexplore.ieee.org/document/11460990)
+[![paper](https://img.shields.io/badge/ICASSP 2026-Oral-blue)](https://ieeexplore.ieee.org/document/11460990)
 
 ## News
 - **[2026.05.7]** Our [paper](https://ieeexplore.ieee.org/document/11460990) is oral presented at ICASSP 2026!
