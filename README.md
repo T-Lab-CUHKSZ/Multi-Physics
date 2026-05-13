@@ -8,23 +8,11 @@
 ## News
 - **[2026.05.7]** Our [paper](https://ieeexplore.ieee.org/document/11460990) is oral presented at ICASSP 2026!
 - **[2026.04.21]** Our [paper](https://ieeexplore.ieee.org/document/11460990) is released!
-- **[2026.01.23]**: 🎉 Our paper is accepted to ICASSP 2026!
+- **[2026.01.23]**: 🎉 Our [paper](https://ieeexplore.ieee.org/document/11460990) is accepted to ICASSP 2026!
 
 ## Why Do We Need Multi-Physics?
 
 While multimodel LLMs demonstrate remarkable reasoning progress, their application in specialized scientific domains like physics reveals significant gaps in current evaluation benchmarks. Specifically, existing benchmarks often lack fine-grained subject coverage, neglect the step-by-step reasoning process, and are predominantly English-centric, failing to systematically evaluate the role of visual information. Therefore, we introduce **Multi-Physics** for Chinese physics reasoning, a comprehensive benchmark that includes 5 difficulty levels, featuring 1,412 image-associated, multiple-choice questions spanning 11 high-school physics subjects. We employ a dual evaluation framework to evaluate 20 different MLLMs, analyzing both final answer accuracy and the step-by-step integrity of their Chain-of-Though. Furthermore, we systematically study the impact of difficulty level and visual information by comparing the model performance before and after changing the input mode. Our work provides not only a fine-grained resource for the community but also offers a robust methodology for dissecting the multimodal reasoning process of state-of-the-art MLLMs, and our dataset and code have been open-sourced.
-
-## Citation
-
-```
-@inproceedings{luo2026multiphysics,
-  title={Multi-Physics: A Comprehensive Benchmark for Multimodal LLMs Reasoning on Chinese Multi-Subject Physics Problems},
-  author={Luo, Zhongze and Yin, Zhenshuai and Guo, Yongxin and Wang, Zhichao and Zhu, Jionghao and Tang, Xiaoying},
-  booktitle={ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  year={2026},
-  organization={IEEE}
-}
-```
 
 ## Distribution of difficulty levels
 
@@ -111,3 +99,18 @@ python difficultyscore.py --obj_output_dir=../Results/your model name
 This work is supported in part by the Guangdong Basic and Applied Basic Research Foundation under Grant No. 2025A1515012968, Shenzhen Science and Technology Program under Grant No. JCYJ20240813113502004, National Natural Science Foundation of China under Grant No. 62001412, in part by the funding from Shenzhen Institute of Artificial Intelligence and Robotics for Society, in part by Shenzhen Stability Science Program 2023, and in part by the Guangdong Provincial Key Laboratory of Future Networks of Intelligence (Grant No. 2022B1212010001).
 
 This work was helped by volunteers, and we would like to thank them for their hard work. (Qizhi Zheng, Yi Xiao, Junyu Pan, Zhan Shen, Junhao Wu, Ya Gao, Yang Yu, Yuxi Sun, Mingxin Song, Yanzhe Fan, Peng Yang, Shuangtong Zhu, Zhongyang Cao, Qiwei Song, Mingqi Shao, Jiaming Tian, and Yuting Song)
+
+## Citation
+
+If you find this project helpful, please consider citing our work:
+
+```
+@inproceedings{luo2026multi,
+  title={Multi-Physics: A Comprehensive Benchmark for Multimodal LLMs Reasoning on Chinese Multi-Subject Physics Problems},
+  author={Luo, Zhongze and Yin, Zhenshuai and Guo, Yongxin and Wang, Zhichao and Zhu, Jionghao and Tang, Xiaoying},
+  booktitle={ICASSP 2026-2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={11837--11841},
+  year={2026},
+  organization={IEEE}
+}
+```
