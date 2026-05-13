@@ -1,16 +1,18 @@
-# Multi-Physics: A Comprehensive Benchmark for Multimodel LLMs Reasoning on Chinese Multi-subject Physics Problems
+<h2 align="center"> <a href="https://ieeexplore.ieee.org/document/11460990">Multi-Physics: A Comprehensive Benchmark for Multimodel LLMs Reasoning on Chinese Multi-subject Physics Problems</a></h2>
+<h5 align="center"> If our project helps you, please give us a star ⭐ and cite our <a href="#citation">paper</a>!</h2>
+<h5 align="center">
 
-<div align="center">
 
-**Paper:** [https://ieeexplore.ieee.org/document/11460990](https://ieeexplore.ieee.org/document/11460990) <br>
+[![hf_space](https://img.shields.io/badge/🤗-Paper%20In%20HF-red.svg)](https://huggingface.co/papers/2405.14297)
+[![arxiv](https://img.shields.io/badge/Arxiv-2405.14297-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2405.14297)
+[![visitor](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLINs-lab%2FDynMoE&count_bg=%2379C83D&title_bg=%23454343&icon=&icon_color=%23E7E7E7&title=visitor&edge_flat=false)](https://hits.seeyoufarm.com)
 
-*Zhongze Luo1, Zhenshuai Yin1, Yongxin Guo1, Jionghao Zhu1, Zhichao Wang1, Xiaoying Tang1,2,3**  <br>
-1 School of Science and Engineering, The Chinese University of Hong Kong, Shenzhen, China  <br>
-2 The Shenzhen Future Network of Intelligence Institute (FNii-Shenzhen), China  <br>
-3 The Guangdong Provincial Key Laboratory of Future Networks of Intelligence, China  <br>
-*Corresponding author: Xiaoying Tang</em>  <br>
+## News
+- **[2026.05.7]** Our [paper](https://ieeexplore.ieee.org/document/11460990) is oral presented at ICASSP 2026!
+- **[2026.04.21]** Our [paper](https://ieeexplore.ieee.org/document/11460990) is released!
+- **[2026.01.23]**: 🎉 Our paper is accepted to ICASSP 2026!
 
-</div>
+## Why Do We Need Multi-Physics?
 
 While multimodel LLMs demonstrate remarkable reasoning progress, their application in specialized scientific domains like physics reveals significant gaps in current evaluation benchmarks. Specifically, existing benchmarks often lack fine-grained subject coverage, neglect the step-by-step reasoning process, and are predominantly English-centric, failing to systematically evaluate the role of visual information. Therefore, we introduce **Multi-Physics** for Chinese physics reasoning, a comprehensive benchmark that includes 5 difficulty levels, featuring 1,412 image-associated, multiple-choice questions spanning 11 high-school physics subjects. We employ a dual evaluation framework to evaluate 20 different MLLMs, analyzing both final answer accuracy and the step-by-step integrity of their Chain-of-Though. Furthermore, we systematically study the impact of difficulty level and visual information by comparing the model performance before and after changing the input mode. Our work provides not only a fine-grained resource for the community but also offers a robust methodology for dissecting the multimodal reasoning process of state-of-the-art MLLMs, and our dataset and code have been open-sourced.
 
